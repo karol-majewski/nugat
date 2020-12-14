@@ -36,8 +36,7 @@ export default function Home() {
         <title>Piekarnia Nugat</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <iframe id="target" ref={iFrame} onLoad={onIframeLoad} className="full-screen-preview__frame" src="https://ristoly.progressionstudios.com/" name="preview-frame" frameBorder="0" noresize="noresize" data-view="fullScreenPreview" allow="geolocation 'self'; autoplay 'self'" >
-</iframe>
+      <iframe id="target" ref={iFrame} onLoad={onIframeLoad} className="full-screen-preview__frame" src="https://ristoly.progressionstudios.com/" name="preview-frame" frameBorder="0" data-view="fullScreenPreview" allow="geolocation 'self'; autoplay 'self'" />
 {/*
         <iframe src="http://hn.arrowpress.net/bakery-kit/"
         width="100%" height="100%" frameBorder="0"
