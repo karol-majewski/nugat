@@ -33,3 +33,14 @@ code {
   justify-content: center;
   align-items: center;
 }
+
+iframe {
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 10px #555;
+    box-shadow: 0 6px 10px #555;
+    border: none;
+    display: block;
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+}

@@ -36,3 +36,26 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 2. Navigate to the directory and run `npm run dev`
 3. Make your changes
 4. Connect to [Netlify](https://url.netlify.com/Bk4UicocL) manually (the `netlify.toml` file is the one you'll need to make sure stays intact to make sure the export is done and pointed to the right stuff)
+
+- Przekierowanie widoczne
+- Przekierowanie niewidoczne (powinno dzialac?)
+
+- <embed> nie dziala
+- iframe nie dziala
+- <object> nie dziala
+
+- http://preview.themeforest.net/item/bake-bakery-cake-elementor-template-kit/full_screen_preview/28697513 to mozna 100% zagniezdzic
+- http://hn.arrowpress.net/bakery-kit/product/chocolate-and-blackcurrant-cake-gsk6v2t/ jest zablokowane do zagniezdzania?
+- znalezc ten sam motyw na innej platformie?
+- mozna wziac inny z ThemeForest i ten wpierdolic pod domene
+  - powie sie ze mamy jedno demo at a time i akurat teraz wgralismy to
+  - co jak sie jorgnie?
+- devtools workspaces overrides
+
+function yourfunction() {
+  const header = document.querySelector("#post-10 > div > div:nth-child(2) > div > div > div > div.gel-heading.gel-heading-style-02.text-center.has-line-separator.gel-5fd6720aa5683 > h2") as HTMLHeadingElement;
+
+  header.innerHTML = "Piekarnia Nugat"
+}
+
+window.onload = yourfunction;
